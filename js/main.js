@@ -58,6 +58,7 @@ function updateTotal(){
 
     const updatedTotal = bestPrice + totalMemoryPrice + totalDeliveryPrice + totalStoragePrice;
     totalPriceField.innerText = updatedTotal;
+    document.getElementById("grand-total").innerText = updatedTotal;
 
     return updatedTotal;
 }
